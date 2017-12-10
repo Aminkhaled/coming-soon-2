@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coming Soon</title>
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <!-- Counter Section -->
+  <section id="counter" class="particles-js-canvas-el">
+   <div class="container">
+    <div class="row">
+      <div class="logo text-center">
+        <img src="images/theme-forest-logo.png" class="img-responsive" alt="lgo">
+      </div>
+      <!-- logo -->
+      <h1 class="text-center">Coming Soon</h1>
+        <div class="counter">
+          <div class="countdown" data-date="2018-01-01"></div>
+        </div>
+        <!-- counter -->
+      <svg class="wave" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="-120 130 451 40" xml:space="preserve">
+    <path fill="none" stroke="white" stroke-width="5" d="M331,160c-30,0-45-20-75-20s-46,20-76,20l0,0c-30,0-45-20-75-20 s-45,20-75,20s-45-20-75-20s-45,20-75,20" />
+</svg>
+      
+    </div>
+     <!-- frist row-->
+     
+     <div class="row">
+       <div class="col-md-12">
+         <h2 class="text-center">For more Information,Contact US</h2>
+         <ul class="social center-block">
+           <li class="facebook"><a href="http://facebook.com"><i class="fa fa-facebook fa-3x"></i></a></li>
+           <li class="twitter"><a href="http://twitter.com"><i class="fa fa-twitter fa-3x"></i></a></li>
+           <li class="pinterest"><a href="http://www.pinterest.com"><i class="fa fa-pinterest-p fa-3x"></i></a></li>
+           <li class="behance"><a href="https://www.behance.net"><i class="fa fa-behance fa-3x"></i></a></li>
+         </ul>
+       </div>
+       <!-- col-md 12 -->
+     </div>
+     <!-- second row-->
+   </div>
+    <!--container-->
+  </section>
+  <!-- Counter Section -->
+
+  <!-- start the script -->
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/countdown.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script>
+      $(function () {
+          "use strict";
+          if ($(".countdown").length > 0) {
+              $(".countdown").countdown({
+                  countDown_days: "Days",
+                  countDown_hours: "Hours",
+                  countDown_minutes: "Minutes",
+                  countDown_seconds: "Seconds"
+              });
+          }
+      });
+  </script>
+  <!-- end the script -->
+</body>
+
+</html>
